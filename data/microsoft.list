@@ -1,10 +1,10 @@
 # NAME: MICROSOFT
 # AUTHOR: Sergey Makhlenko
 # REPO: https://github.com/mahlenko/shadowrocket-v2fly
-# UPDATED: 2026-05-20 12:57:53
+# UPDATED: 2026-05-20 13:13:54
 # DOMAIN-SUFFIX: 623
-# DOMAIN: 95
-# TOTAL: 718
+# DOMAIN: 97
+# TOTAL: 720
 DOMAIN-SUFFIX,1drv.com
 DOMAIN-SUFFIX,1drv.ms
 DOMAIN-SUFFIX,21vbc.com
@@ -198,6 +198,7 @@ DOMAIN,default.exp-tas.com
 DOMAIN-SUFFIX,dependabot.com
 DOMAIN,devblogs.microsoft.com
 DOMAIN,developer.microsoft.com
+DOMAIN,developer.microsoft.com
 DOMAIN-SUFFIX,devopsassessment.net
 DOMAIN-SUFFIX,devopsms.com
 DOMAIN-SUFFIX,dictate.ms
@@ -208,6 +209,7 @@ DOMAIN,docs.microsoft.com
 DOMAIN-SUFFIX,doom.com
 DOMAIN-SUFFIX,dot.net
 DOMAIN,download.microsoft.com
+DOMAIN,download.visualstudio.microsoft.com
 DOMAIN,download.visualstudio.microsoft.com
 DOMAIN-SUFFIX,download.windowsupdate.com
 DOMAIN,dtlgalleryint.cloudapp.net

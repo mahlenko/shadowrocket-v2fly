@@ -1,11 +1,11 @@
 # NAME: CATEGORY-COMPANIES
 # AUTHOR: Sergey Makhlenko
 # REPO: https://github.com/mahlenko/shadowrocket-v2fly
-# UPDATED: 2026-05-20 12:57:52
+# UPDATED: 2026-05-20 13:13:53
 # DOMAIN-SUFFIX: 7556
-# DOMAIN: 955
+# DOMAIN: 958
 # URL-REGEX: 6
-# TOTAL: 8517
+# TOTAL: 8520
 URL-REGEX,.+\.awsdns-[0-9][0-9]\.(co\.uk|com|net|org)$
 URL-REGEX,.+\.awsdns-cn-[0-9][0-9]\.(biz|com|net|top)$
 URL-REGEX,.+\.awsdns-cn-[0-9][a-e0-9]\.cn$
@@ -2656,6 +2656,7 @@ DOMAIN,devblogs.microsoft.com
 DOMAIN-SUFFIX,developer-advisor.com
 DOMAIN-SUFFIX,developer.allizom.org
 DOMAIN,developer.microsoft.com
+DOMAIN,developer.microsoft.com
 DOMAIN-SUFFIX,developer.mozilla.org
 DOMAIN,developers.facebook.com
 DOMAIN-SUFFIX,developria.com
@@ -2803,6 +2804,7 @@ DOMAIN,download.developer.apple.com
 DOMAIN,download.microsoft.com
 DOMAIN,download.mlcc.google.com
 DOMAIN,download.tensorflow.google.com
+DOMAIN,download.visualstudio.microsoft.com
 DOMAIN,download.visualstudio.microsoft.com
 DOMAIN-SUFFIX,download.windowsupdate.com
 DOMAIN,downloaddispatch.itunes.apple.com
@@ -5973,6 +5975,7 @@ DOMAIN-SUFFIX,now.com
 DOMAIN-SUFFIX,now.com.hk
 DOMAIN-SUFFIX,nowe.com
 DOMAIN-SUFFIX,nowe.hk
+DOMAIN,np-edge.itunes.apple.com
 DOMAIN,np-edge.itunes.apple.com
 DOMAIN-SUFFIX,npm.community
 DOMAIN-SUFFIX,npmjs.com

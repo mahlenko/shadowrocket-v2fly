@@ -1,11 +1,11 @@
 # NAME: GEOLOCATION-!CN
 # AUTHOR: Sergey Makhlenko
 # REPO: https://github.com/mahlenko/shadowrocket-v2fly
-# UPDATED: 2026-05-20 12:57:53
+# UPDATED: 2026-05-20 13:13:54
 # DOMAIN-SUFFIX: 23621
-# DOMAIN: 1372
+# DOMAIN: 1375
 # URL-REGEX: 161
-# TOTAL: 25154
+# TOTAL: 25157
 URL-REGEX,(^|\.)13mei[5-7]\.buzz$
 URL-REGEX,(^|\.)18j[efg]\.life$
 URL-REGEX,(^|\.)18jmttios[0-9]{2}\.com$
@@ -6640,6 +6640,7 @@ DOMAIN-SUFFIX,developer-advisor.com
 DOMAIN-SUFFIX,developer.allizom.org
 DOMAIN-SUFFIX,developer.apple.com
 DOMAIN,developer.microsoft.com
+DOMAIN,developer.microsoft.com
 DOMAIN-SUFFIX,developer.mozilla.org
 DOMAIN,developers.facebook.com
 DOMAIN-SUFFIX,developerservices2.apple.com
@@ -7102,6 +7103,7 @@ DOMAIN,download.developer.apple.com
 DOMAIN,download.microsoft.com
 DOMAIN,download.mlcc.google.com
 DOMAIN,download.tensorflow.google.com
+DOMAIN,download.visualstudio.microsoft.com
 DOMAIN,download.visualstudio.microsoft.com
 DOMAIN-SUFFIX,download.windowsupdate.com
 DOMAIN,downloaddispatch.itunes.apple.com
@@ -16208,6 +16210,7 @@ DOMAIN-SUFFIX,nowjav.com
 DOMAIN-SUFFIX,nownews.com
 DOMAIN-SUFFIX,noxygames.com
 DOMAIN-SUFFIX,nozomi.la
+DOMAIN,np-edge.itunes.apple.com
 DOMAIN,np-edge.itunes.apple.com
 DOMAIN-SUFFIX,npm.community
 DOMAIN-SUFFIX,npmjs.com
