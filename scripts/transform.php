@@ -1,34 +1,135 @@
 <?php
 // scripts/transform.php
+// Usage: php transform.php <input_dir> <output_dir>
 
 declare(strict_types=1);
 
 [$_, $inputDir, $outputDir] = $argv;
 
-$files = glob($inputDir . '/*');
+if (!is_dir($outputDir)) {
+    mkdir($outputDir, 0755, true);
+}
 
-foreach ($files as $file) {
-    $name = basename($file);
-    $lines = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    $rules = [];
+class DomainListTransformer
+{
+    private array $cache = [];
 
-    foreach ($lines as $line) {
-        $line = trim($line);
+    public function __construct(private string $inputDir) {}
 
-        if (str_starts_with($line, '#') || str_starts_with($line, 'include:')) {
-            continue;
+    public function transformFile(string $name): array
+    {
+        if (isset($this->cache[$name])) {
+            return $this->cache[$name];
         }
 
-        $rules[] = match (true) {
+        $this->cache[$name] = [];
+
+        $file = $this->inputDir . '/' . $name;
+        if (!file_exists($file)) {
+            fwrite(STDERR, "Warning: include target '$name' not found\n");
+            return [];
+        }
+
+        $lines = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        $rules = [];
+
+        foreach ($lines as $line) {
+            $line = trim($line);
+
+            if ($line === '' || str_starts_with($line, '#')) {
+                continue;
+            }
+
+            // Убираем аннотации: "domain:google.com @ads" → "domain:google.com"
+            $line = preg_replace('/@\S+/', '', $line);
+            $line = trim($line);
+
+            $rule = $this->transformRule($line);
+            if ($rule !== null) {
+                $rules[] = $rule;
+            }
+        }
+
+        $this->cache[$name] = $rules;
+        return $rules;
+    }
+
+    private function transformRule(string $line): ?string
+    {
+        return match (true) {
             str_starts_with($line, 'domain:') => 'DOMAIN-SUFFIX,' . substr($line, 7),
-            str_starts_with($line, 'full:') => 'DOMAIN,'        . substr($line, 5),
-            str_starts_with($line, 'regexp:') => 'URL-REGEX,'     . substr($line, 7),
-            default => 'DOMAIN-SUFFIX,' . $line,
+            str_starts_with($line, 'full:')   => 'DOMAIN,'        . substr($line, 5),
+            str_starts_with($line, 'regexp:') => 'URL-REGEX,'     . $this->convertRegex(substr($line, 7)),
+            default                           => 'DOMAIN-SUFFIX,' . $line,
         };
     }
 
-    $rules = array_filter($rules);
-    file_put_contents("$outputDir/$name.list", implode("\n", $rules) . "\n");
+    private function convertRegex(string $goRegex): string
+    {
+        $pcre = $goRegex;
+        $pcre = str_replace(['\A', '\z'], ['^', '$'], $pcre);
+        $pcre = preg_replace('/\(\?P<(\w+)>/', '(?<$1>', $pcre);
+        return $pcre;
+    }
 }
 
-echo "Done: " . count($files) . " files processed\n";
+function buildHeader(string $name, array $rules): string
+{
+    $total         = count($rules);
+    $domainSuffix  = count(array_filter($rules, fn($r) => str_starts_with($r, 'DOMAIN-SUFFIX,')));
+    $domain        = count(array_filter($rules, fn($r) => str_starts_with($r, 'DOMAIN,')));
+    $urlRegex      = count(array_filter($rules, fn($r) => str_starts_with($r, 'URL-REGEX,')));
+    $updated       = gmdate('Y-m-d H:i:s');
+    $listName      = strtoupper($name);
+
+    $header  = "# NAME: {$listName}\n";
+    $header .= "# AUTHOR: Sergey Makhlenko\n";
+    $header .= "# REPO: https://github.com/mahlenko/shadowrocket-v2fly\n";
+    $header .= "# UPDATED: {$updated}\n";
+
+    if ($domainSuffix > 0) {
+        $header .= "# DOMAIN-SUFFIX: {$domainSuffix}\n";
+    }
+    if ($domain > 0) {
+        $header .= "# DOMAIN: {$domain}\n";
+    }
+    if ($urlRegex > 0) {
+        $header .= "# URL-REGEX: {$urlRegex}\n";
+    }
+
+    $header .= "# TOTAL: {$total}\n";
+
+    return $header;
+}
+
+// --- main ---
+
+$files       = glob($inputDir . '/*');
+$transformer = new DomainListTransformer($inputDir);
+$count       = 0;
+
+foreach ($files as $file) {
+    $name  = basename($file);
+    $rules = $transformer->transformFile($name);
+
+    if (empty($rules)) {
+        continue;
+    }
+
+    $rules = array_values(array_unique($rules));
+
+    // Сортировка по алфавиту (по значению после первой запятой)
+    usort($rules, function (string $a, string $b): int {
+        $valA = explode(',', $a, 2)[1] ?? $a;
+        $valB = explode(',', $b, 2)[1] ?? $b;
+        return strcmp($valA, $valB);
+    });
+
+    $header  = buildHeader($name, $rules);
+    $content = $header . implode("\n", $rules) . "\n";
+
+    file_put_contents("$outputDir/$name.list", $content);
+    $count++;
+}
+
+echo "Done: $count files written\n";
