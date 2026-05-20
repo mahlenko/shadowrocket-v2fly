@@ -1,10 +1,10 @@
 # NAME: APPLE
 # AUTHOR: Sergey Makhlenko
 # REPO: https://github.com/mahlenko/shadowrocket-v2fly
-# UPDATED: 2026-05-20 13:13:53
+# UPDATED: 2026-05-20 13:19:29
 # DOMAIN-SUFFIX: 1536
-# DOMAIN: 243
-# TOTAL: 1779
+# DOMAIN: 242
+# TOTAL: 1778
 DOMAIN-SUFFIX,100beatscheap.com
 DOMAIN-SUFFIX,12diasdepresentesdeitunes.com
 DOMAIN-SUFFIX,12diasderegalosdeitunes.cl
@@ -1545,7 +1545,6 @@ DOMAIN-SUFFIX,newton.com
 DOMAIN-SUFFIX,next.com
 DOMAIN-SUFFIX,nflhotsalejerseys.com
 DOMAIN-SUFFIX,nicesshop.net
-DOMAIN,np-edge.itunes.apple.com
 DOMAIN,np-edge.itunes.apple.com
 DOMAIN,ocsp-lb.apple.com.akadns.net
 DOMAIN,ocsp.apple.com
