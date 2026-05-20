@@ -16,8 +16,7 @@ class DomainListTransformer
 
     public function __construct(private string $inputDir) {}
 
-    public function transformFile(string $name): array
-    {
+    public function transformFile(string $name): array {
         if (isset($this->cache[$name])) {
             return $this->cache[$name];
         }
@@ -25,7 +24,7 @@ class DomainListTransformer
         // Защита от циклических include
         $this->cache[$name] = [];
 
-        $file = $this->inputDir . '/' . $name;
+        $file = $this->inputDir.'/'.$name;
         if (!file_exists($file)) {
             fwrite(STDERR, "Warning: include target '$name' not found\n");
             return [];
@@ -40,10 +39,6 @@ class DomainListTransformer
             if ($line === '' || str_starts_with($line, '#')) {
                 continue;
             }
-
-            // Убираем аннотации: "domain:google.com @ads" → "domain:google.com"
-            $line = preg_replace('/@\S+/', '', $line);
-            $line = trim($line);
 
             // ← ДОБАВЛЕНО: раскрываем include
             if (str_starts_with($line, 'include:')) {
@@ -62,24 +57,35 @@ class DomainListTransformer
         return $rules;
     }
 
-    private function transformRule(string $line): ?string
-    {
-        // Убираем inline-комментарии: "domain:foo.com #comment" → "domain:foo.com"
+    private function transformRule(string $line): ?string {
+        // Убираем inline-комментарии, но оставляем @tags
         $line = trim(preg_replace('/#.*$/', '', $line));
+
         if ($line === '') {
             return null;
         }
 
-        return match (true) {
-            str_starts_with($line, 'domain:') => 'DOMAIN-SUFFIX,' . substr($line, 7),
-            str_starts_with($line, 'full:') => 'DOMAIN,'        . substr($line, 5),
-            str_starts_with($line, 'regexp:') => 'URL-REGEX,'     . $this->convertRegex(substr($line, 7)),
-            default => 'DOMAIN-SUFFIX,' . $line,
+        preg_match_all('/@(\S+)/', $line, $matches);
+        $tags = $matches[1] ?? [];
+
+        // Убираем теги из правила, но сохраним их позже как комментарий
+        $line = trim(preg_replace('/@\S+/', '', $line));
+
+        $rule = match (true) {
+            str_starts_with($line, 'domain:') => 'DOMAIN-SUFFIX,'.substr($line, 7),
+            str_starts_with($line, 'full:') => 'DOMAIN,'.substr($line, 5),
+            str_starts_with($line, 'regexp:') => 'URL-REGEX,'.$this->convertRegex(substr($line, 7)),
+            default => 'DOMAIN-SUFFIX,'.$line,
         };
+
+        if ($tags !== []) {
+            $rule .= ' #tags:'.implode(',', $tags);
+        }
+
+        return $rule;
     }
 
-    private function convertRegex(string $goRegex): string
-    {
+    private function convertRegex(string $goRegex): string {
         $pcre = $goRegex;
         $pcre = str_replace(['\A', '\z'], ['^', '$'], $pcre);
         $pcre = preg_replace('/\(\?P<(\w+)>/', '(?<$1>', $pcre);
@@ -87,16 +93,15 @@ class DomainListTransformer
     }
 }
 
-function buildHeader(string $name, array $rules): string
-{
-    $total         = count($rules);
-    $domainSuffix  = count(array_filter($rules, fn($r) => str_starts_with($r, 'DOMAIN-SUFFIX,')));
-    $domain        = count(array_filter($rules, fn($r) => str_starts_with($r, 'DOMAIN,')));
-    $urlRegex      = count(array_filter($rules, fn($r) => str_starts_with($r, 'URL-REGEX,')));
-    $updated       = gmdate('Y-m-d H:i:s');
-    $listName      = strtoupper($name);
+function buildHeader(string $name, array $rules): string {
+    $total = count($rules);
+    $domainSuffix = count(array_filter($rules, fn($r) => str_starts_with($r, 'DOMAIN-SUFFIX,')));
+    $domain = count(array_filter($rules, fn($r) => str_starts_with($r, 'DOMAIN,')));
+    $urlRegex = count(array_filter($rules, fn($r) => str_starts_with($r, 'URL-REGEX,')));
+    $updated = gmdate('Y-m-d H:i:s');
+    $listName = strtoupper($name);
 
-    $header  = "# NAME: {$listName}\n";
+    $header = "# NAME: {$listName}\n";
     $header .= "# AUTHOR: Sergey Makhlenko\n";
     $header .= "# REPO: https://github.com/mahlenko/shadowrocket-v2fly\n";
     $header .= "# UPDATED: {$updated}\n";
@@ -118,13 +123,20 @@ function buildHeader(string $name, array $rules): string
 
 // --- main ---
 
-$files       = glob($inputDir . '/*');
+$files = glob($inputDir.'/*');
 $transformer = new DomainListTransformer($inputDir);
-$count       = 0;
+$count = 0;
 
 foreach ($files as $file) {
-    $name  = basename($file);
+    $name = basename($file);
     $rules = $transformer->transformFile($name);
+
+    if (in_array($name, ['category-ads', 'category-ads-all'], true)) {
+        $rules = array_filter(
+            $rules,
+            fn(string $rule): bool => str_contains($rule, '#tags:ads')
+        );
+    }
 
     if (empty($rules)) {
         continue;
@@ -139,8 +151,14 @@ foreach ($files as $file) {
         return strcmp($valA, $valB);
     });
 
-    $header  = buildHeader($name, $rules);
-    $content = $header . implode("\n", $rules) . "\n";
+    // Убираем технические теги перед записью файла
+    $rules = array_map(
+        fn(string $r): string => preg_replace('/\s+#tags:.*$/', '', $r),
+        $rules
+    );
+
+    $header = buildHeader($name, $rules);
+    $content = $header.implode("\n", $rules)."\n";
 
     file_put_contents("$outputDir/$name.list", $content);
     $count++;
