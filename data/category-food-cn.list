@@ -1,14 +1,13 @@
 # NAME: CATEGORY-FOOD-CN
 # AUTHOR: Sergey Makhlenko
 # REPO: https://github.com/mahlenko/shadowrocket-v2fly
-# UPDATED: 2026-05-20 15:38:45
-# DOMAIN-SUFFIX: 90
-# TOTAL: 90
+# UPDATED: 2026-05-20 15:43:06
+# DOMAIN-SUFFIX: 51
+# TOTAL: 51
 DOMAIN-SUFFIX,100.me
 DOMAIN-SUFFIX,3songshu.com
 DOMAIN-SUFFIX,4008-517-517.cn
 DOMAIN-SUFFIX,517lppz.com
-DOMAIN-SUFFIX,aboutmcdonalds.com
 DOMAIN-SUFFIX,anlaiye.com
 DOMAIN-SUFFIX,anlaiye.com.cn
 DOMAIN-SUFFIX,bkchina.cn
@@ -21,10 +20,6 @@ DOMAIN-SUFFIX,dduser.mobi
 DOMAIN-SUFFIX,ddxq.mobi
 DOMAIN-SUFFIX,dicos.com.cn
 DOMAIN-SUFFIX,haidilao.com
-DOMAIN-SUFFIX,happymeal.co.nz
-DOMAIN-SUFFIX,happymeal.com
-DOMAIN-SUFFIX,happymeal.com.au
-DOMAIN-SUFFIX,happymealdigital.com
 DOMAIN-SUFFIX,hdlcdns.com
 DOMAIN-SUFFIX,heytea.com
 DOMAIN-SUFFIX,hophing.cn
@@ -40,43 +35,9 @@ DOMAIN-SUFFIX,logger.qmai.cn
 DOMAIN-SUFFIX,lppz.com
 DOMAIN-SUFFIX,lppzimg.com
 DOMAIN-SUFFIX,luckincoffeecdn.com
-DOMAIN-SUFFIX,mcd-holdings.co.jp
 DOMAIN-SUFFIX,mcd.cn
-DOMAIN-SUFFIX,mcd.com
 DOMAIN-SUFFIX,mcdchina.net
-DOMAIN-SUFFIX,mcdelivery.co.id
-DOMAIN-SUFFIX,mcdelivery.co.in
-DOMAIN-SUFFIX,mcdelivery.co.kr
-DOMAIN-SUFFIX,mcdelivery.com.au
-DOMAIN-SUFFIX,mcdelivery.com.my
-DOMAIN-SUFFIX,mcdelivery.com.ph
-DOMAIN-SUFFIX,mcdelivery.com.sg
-DOMAIN-SUFFIX,mcdelivery.com.tw
-DOMAIN-SUFFIX,mcdindia.com
-DOMAIN-SUFFIX,mcdindonesia.com
-DOMAIN-SUFFIX,mcdonalds-online.com
-DOMAIN-SUFFIX,mcdonalds.be
-DOMAIN-SUFFIX,mcdonalds.ca
-DOMAIN-SUFFIX,mcdonalds.co.id
-DOMAIN-SUFFIX,mcdonalds.co.jp
-DOMAIN-SUFFIX,mcdonalds.co.kr
-DOMAIN-SUFFIX,mcdonalds.co.nz
-DOMAIN-SUFFIX,mcdonalds.co.uk
-DOMAIN-SUFFIX,mcdonalds.com
-DOMAIN-SUFFIX,mcdonalds.com.au
 DOMAIN-SUFFIX,mcdonalds.com.cn
-DOMAIN-SUFFIX,mcdonalds.com.hk
-DOMAIN-SUFFIX,mcdonalds.com.lb
-DOMAIN-SUFFIX,mcdonalds.com.my
-DOMAIN-SUFFIX,mcdonalds.com.ph
-DOMAIN-SUFFIX,mcdonalds.com.tw
-DOMAIN-SUFFIX,mcdonalds.hk
-DOMAIN-SUFFIX,mcdonalds.it
-DOMAIN-SUFFIX,mcdonalds.no
-DOMAIN-SUFFIX,mcdonalds.se
-DOMAIN-SUFFIX,mcdonaldsapps.com
-DOMAIN-SUFFIX,mcdonaldsarabia.com
-DOMAIN-SUFFIX,mcdonaldsparties.co.nz
 DOMAIN-SUFFIX,meican.com
 DOMAIN-SUFFIX,meicanstatic.com
 DOMAIN-SUFFIX,mxbc.com

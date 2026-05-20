@@ -1,13 +1,10 @@
 # NAME: CATEGORY-DEV-CN
 # AUTHOR: Sergey Makhlenko
 # REPO: https://github.com/mahlenko/shadowrocket-v2fly
-# UPDATED: 2026-05-20 15:38:45
-# DOMAIN-SUFFIX: 130
+# UPDATED: 2026-05-20 15:43:06
+# DOMAIN-SUFFIX: 115
 # DOMAIN: 9
-# TOTAL: 139
-DOMAIN-SUFFIX,51changxie.com
-DOMAIN-SUFFIX,51jianxie.cn
-DOMAIN-SUFFIX,91changxie.com
+# TOTAL: 124
 DOMAIN-SUFFIX,aardio.com
 DOMAIN-SUFFIX,ads.unitychina.cn
 DOMAIN-SUFFIX,aixcoder.com
@@ -24,8 +21,6 @@ DOMAIN-SUFFIX,baltamatica.org.cn
 DOMAIN-SUFFIX,bisheng.cn
 DOMAIN-SUFFIX,bishengcompiler.cn
 DOMAIN-SUFFIX,blogjava.net
-DOMAIN-SUFFIX,changxie.com
-DOMAIN-SUFFIX,chinauos.com
 DOMAIN-SUFFIX,cnb.cool
 DOMAIN-SUFFIX,cnblogs.com
 DOMAIN-SUFFIX,cnitblog.com
@@ -40,11 +35,6 @@ DOMAIN-SUFFIX,csdn.net.cn
 DOMAIN-SUFFIX,csdnimg.cn
 DOMAIN-SUFFIX,csto.com
 DOMAIN-SUFFIX,datasea.cn
-DOMAIN-SUFFIX,deepin.cn
-DOMAIN-SUFFIX,deepin.com
-DOMAIN-SUFFIX,deepin.io
-DOMAIN-SUFFIX,deepin.org
-DOMAIN-SUFFIX,deepin.org.cn
 DOMAIN-SUFFIX,dengguobi.com
 DOMAIN-SUFFIX,devui.design
 DOMAIN-SUFFIX,frontjs.com
@@ -80,8 +70,6 @@ DOMAIN-SUFFIX,juejin.cn
 DOMAIN-SUFFIX,juejin.im
 DOMAIN-SUFFIX,kaifayun.com
 DOMAIN-SUFFIX,kaihong.com
-DOMAIN-SUFFIX,linglong.space
-DOMAIN-SUFFIX,linyaps.org.cn
 DOMAIN-SUFFIX,mindspore.cn
 DOMAIN-SUFFIX,mysxl.cn
 DOMAIN-SUFFIX,nnthink.com
@@ -113,7 +101,6 @@ DOMAIN-SUFFIX,rubyconfchina.org
 DOMAIN-SUFFIX,saasops.tech
 DOMAIN-SUFFIX,segmentfault.com
 DOMAIN-SUFFIX,sifou.com
-DOMAIN-SUFFIX,sndu.cn
 DOMAIN-SUFFIX,splash-ads.cdn.unity.cn
 DOMAIN-SUFFIX,splash-ads.unitychina.cn
 DOMAIN-SUFFIX,sxl.cn
@@ -133,8 +120,6 @@ DOMAIN-SUFFIX,tjstats.com
 DOMAIN-SUFFIX,tracup.com
 DOMAIN-SUFFIX,u3d.cn
 DOMAIN-SUFFIX,ubuntukylin.com
-DOMAIN-SUFFIX,uniontech.cn
-DOMAIN-SUFFIX,uniontech.com
 DOMAIN-SUFFIX,unity.cn
 DOMAIN-SUFFIX,unityads.unity.cn
 DOMAIN-SUFFIX,unityads.unitychina.cn
