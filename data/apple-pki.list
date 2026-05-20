@@ -1,0 +1,10 @@
+DOMAIN,certs-lb.apple.com.akadns.net @cn
+DOMAIN,certs.apple.com @cn
+DOMAIN,crl-lb.apple.com.akadns.net @cn
+DOMAIN,crl.apple.com @cn
+DOMAIN,ocsp-lb.apple.com.akadns.net @cn
+DOMAIN,ocsp.apple.com @cn
+DOMAIN,ocsp2-lb.apple.com.akadns.net @cn
+DOMAIN,ocsp2.apple.com @cn
+DOMAIN,valid.apple.com @cn
+DOMAIN,valid.origin-apple.com.akadns.net @cn

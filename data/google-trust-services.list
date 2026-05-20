@@ -1,0 +1,12 @@
+DOMAIN-SUFFIX,pki.goog
+DOMAIN,pki-goog.l.google.com @cn
+DOMAIN,c.pki.goog @cn
+DOMAIN,i.pki.goog @cn
+DOMAIN,o.pki.goog @cn
+DOMAIN,publicca.googleapis.com
+DOMAIN,preprod-publicca.googleapis.com
+DOMAIN,clients1.google.com
+DOMAIN,pki.google.com
+DOMAIN,crl.pki.goog @cn
+DOMAIN,crls.pki.goog @cn
+DOMAIN,ocsp.pki.goog @cn

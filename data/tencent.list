@@ -1,0 +1,134 @@
+DOMAIN-SUFFIX,qq.xn--fiqs8s
+DOMAIN-SUFFIX,xn--r70as2s.xn--fiqs8s
+DOMAIN-SUFFIX,acimg.cn
+DOMAIN-SUFFIX,apcdns.net
+DOMAIN-SUFFIX,foxmail.com
+DOMAIN-SUFFIX,foxmail.com.cn
+DOMAIN-SUFFIX,gtimg.cn
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,gtimg.com.cn
+DOMAIN-SUFFIX,idqqimg.com
+DOMAIN-SUFFIX,imqq.com
+DOMAIN-SUFFIX,myapp.com
+DOMAIN-SUFFIX,qlivecdn.com
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,qq.cn.com
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,qq.com.cn
+DOMAIN-SUFFIX,qq.wang
+DOMAIN-SUFFIX,qqmail.com
+DOMAIN-SUFFIX,qzone.com
+DOMAIN-SUFFIX,rtx.com.cn
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,tencent.cn
+DOMAIN-SUFFIX,tencent.co.id @!cn
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,tencent.com.cn
+DOMAIN-SUFFIX,tencent.com.hk @!cn
+DOMAIN-SUFFIX,tencent.net
+DOMAIN-SUFFIX,tencent.net.cn
+DOMAIN-SUFFIX,tencentmusic.com
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,tfogc.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,wechatpay.cn
+DOMAIN-SUFFIX,weiyun.com
+DOMAIN-SUFFIX,wetv.vip @!cn
+DOMAIN-SUFFIX,wetvinfo.com @!cn
+DOMAIN-SUFFIX,wxaurl.cn
+DOMAIN-SUFFIX,wxcloudrun.com
+DOMAIN-SUFFIX,wxgateway.com
+DOMAIN-SUFFIX,wxlivecdn.com
+DOMAIN,wetv.qq.com @!cn
+DOMAIN-SUFFIX,alloyteam.com
+DOMAIN-SUFFIX,imweb.io
+DOMAIN-SUFFIX,ivweb.io
+DOMAIN-SUFFIX,fyeds.com
+DOMAIN-SUFFIX,fyeds0.com
+DOMAIN-SUFFIX,fyeds1.com
+DOMAIN-SUFFIX,fyeds3.com
+DOMAIN-SUFFIX,fyeds4.com
+DOMAIN-SUFFIX,fyeds5.com
+DOMAIN-SUFFIX,fyeds6.com
+DOMAIN-SUFFIX,fyeds7.com
+DOMAIN-SUFFIX,fyeds8.com
+DOMAIN-SUFFIX,fyeds9.com
+DOMAIN-SUFFIX,fymall0.com
+DOMAIN-SUFFIX,fymall1.com
+DOMAIN-SUFFIX,fymall4.com
+DOMAIN-SUFFIX,fymall7.com
+DOMAIN-SUFFIX,fymall9.com
+DOMAIN-SUFFIX,fymallqa0.com
+DOMAIN-SUFFIX,fymallqa1.com
+DOMAIN-SUFFIX,fymallqa2.com
+DOMAIN-SUFFIX,fymallqa3.com
+DOMAIN-SUFFIX,fymallqa4.com
+DOMAIN-SUFFIX,fymallqa7.com
+DOMAIN-SUFFIX,fymallqa9.com
+DOMAIN-SUFFIX,tdnsdl1.cn
+DOMAIN-SUFFIX,tdnsdl1.com.cn
+DOMAIN-SUFFIX,tdnsdl2.cn
+DOMAIN-SUFFIX,tdnsdl2.com.cn
+DOMAIN-SUFFIX,tdnsdl3.cn
+DOMAIN-SUFFIX,tdnsdl3.com.cn
+DOMAIN-SUFFIX,tdnsdl4.cn
+DOMAIN-SUFFIX,tdnsdl4.com.cn
+DOMAIN-SUFFIX,tdnsdl5.cn
+DOMAIN-SUFFIX,tdnsdl5.com.cn
+DOMAIN-SUFFIX,ad.browser.qq.com @ads
+DOMAIN-SUFFIX,ad.qq.com @ads
+DOMAIN-SUFFIX,ad.qun.qq.com @ads
+DOMAIN-SUFFIX,ad.tencentmusic.com @ads
+DOMAIN-SUFFIX,ad.weixin.qq.com @ads
+DOMAIN-SUFFIX,adfilter.imtt.qq.com @ads
+DOMAIN-SUFFIX,adnet.qq.com @ads
+DOMAIN-SUFFIX,adping.qq.com @ads
+DOMAIN-SUFFIX,adpm.app.qq.com @ads
+DOMAIN-SUFFIX,adsclick.qq.com @ads
+DOMAIN-SUFFIX,adsfile.qq.com @ads
+DOMAIN-SUFFIX,adshmmsg.qq.com @ads
+DOMAIN-SUFFIX,adslvfile.qq.com @ads
+DOMAIN-SUFFIX,adslvseed.qq.com @ads
+DOMAIN-SUFFIX,adsmind.apdcdn.tc.qq.com @ads
+DOMAIN-SUFFIX,adsqqclick.qq.com @ads
+DOMAIN-SUFFIX,adstats.tencentmusic.com @ads
+DOMAIN-SUFFIX,adstestview.qq.com @ads
+DOMAIN-SUFFIX,adsview.qq.com @ads
+DOMAIN-SUFFIX,adsview2.qq.com @ads
+DOMAIN-SUFFIX,adv.app.qq.com @ads
+DOMAIN-SUFFIX,adver.qq.com @ads
+DOMAIN-SUFFIX,beacon.cdn.qq.com @ads
+DOMAIN-SUFFIX,beacon.qq.com @ads
+DOMAIN-SUFFIX,beaconcdn.qq.com @ads
+DOMAIN-SUFFIX,btrace.qq.com @ads
+DOMAIN-SUFFIX,bugly.qq.com @ads
+DOMAIN-SUFFIX,e.qq.com @ads
+DOMAIN-SUFFIX,gdt.qq.com @ads
+DOMAIN-SUFFIX,hq-tracking.qq.com @ads
+DOMAIN-SUFFIX,htrace.wetvinfo.com @!cn @ads
+DOMAIN-SUFFIX,isdspeed.qq.com @ads
+DOMAIN-SUFFIX,log.tbs.qq.com @ads
+DOMAIN-SUFFIX,mdt.qq.com @ads
+DOMAIN-SUFFIX,monitor.music.qq.com @ads
+DOMAIN-SUFFIX,monitor.uu.qq.com @ads
+DOMAIN-SUFFIX,mpush.qq.com @ads
+DOMAIN-SUFFIX,mtrace.qq.com @ads
+DOMAIN-SUFFIX,pgdt.gtimg.cn @ads
+DOMAIN-SUFFIX,pingjs.qq.com @ads
+DOMAIN-SUFFIX,pmir.3g.qq.com @ads
+DOMAIN-SUFFIX,push.qq.com @ads
+DOMAIN-SUFFIX,qqdata.ab.qq.com @ads
+DOMAIN-SUFFIX,report.qqweb.qq.com @ads
+DOMAIN-SUFFIX,report.tencentmusic.com @ads
+DOMAIN-SUFFIX,rmonitor.qq.com @ads
+DOMAIN-SUFFIX,sngmta.qq.com @ads
+DOMAIN-SUFFIX,stat.y.qq.com @ads
+DOMAIN-SUFFIX,tajs.qq.com @ads
+DOMAIN-SUFFIX,tcss.qq.com @ads
+DOMAIN-SUFFIX,tmead.y.qq.com @ads
+DOMAIN-SUFFIX,tmeadcomm.y.qq.com @ads
+DOMAIN-SUFFIX,tpstelemetry.tencent.com @ads
+DOMAIN-SUFFIX,trace.qq.com @ads
+DOMAIN-SUFFIX,ugdtimg.com @ads
+DOMAIN-SUFFIX,wit.qq.com @ads
