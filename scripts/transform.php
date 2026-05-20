@@ -22,6 +22,7 @@ class DomainListTransformer
             return $this->cache[$name];
         }
 
+        // Защита от циклических include
         $this->cache[$name] = [];
 
         $file = $this->inputDir . '/' . $name;
@@ -43,6 +44,13 @@ class DomainListTransformer
             // Убираем аннотации: "domain:google.com @ads" → "domain:google.com"
             $line = preg_replace('/@\S+/', '', $line);
             $line = trim($line);
+
+            // ← ДОБАВЛЕНО: раскрываем include
+            if (str_starts_with($line, 'include:')) {
+                $includeName = substr($line, 8);
+                array_push($rules, ...$this->transformFile($includeName));
+                continue;
+            }
 
             $rule = $this->transformRule($line);
             if ($rule !== null) {
