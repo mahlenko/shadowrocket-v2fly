@@ -1,0 +1,13 @@
+# NAME: DOCKER
+# AUTHOR: Sergey Makhlenko
+# REPO: https://github.com/mahlenko/shadowrocket-v2fly
+# UPDATED: 2026-05-20 13:23:54
+# DOMAIN-SUFFIX: 4
+# DOMAIN: 2
+# TOTAL: 6
+DOMAIN-SUFFIX,compose-spec.io
+DOMAIN,docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
+DOMAIN,docker-pinata-support.s3.amazonaws.com
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,dockerstatic.com

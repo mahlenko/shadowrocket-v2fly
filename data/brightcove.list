@@ -1,0 +1,21 @@
+# NAME: BRIGHTCOVE
+# AUTHOR: Sergey Makhlenko
+# REPO: https://github.com/mahlenko/shadowrocket-v2fly
+# UPDATED: 2026-05-20 13:23:53
+# DOMAIN-SUFFIX: 11
+# DOMAIN: 3
+# TOTAL: 14
+DOMAIN-SUFFIX,bcove.video
+DOMAIN,bcovlive-a.akamaihd.net
+DOMAIN-SUFFIX,bcovlive.io
+DOMAIN,bcsecure01-a.akamaihd.net
+DOMAIN-SUFFIX,bcvp0rtal.com
+DOMAIN-SUFFIX,boltdns.net
+DOMAIN-SUFFIX,brightcove.com
+DOMAIN,brightcove.imgix.net
+DOMAIN-SUFFIX,brightcove.net
+DOMAIN-SUFFIX,brightcove.services
+DOMAIN-SUFFIX,brightcovecdn.com
+DOMAIN-SUFFIX,videojs.com
+DOMAIN-SUFFIX,zencdn.net
+DOMAIN-SUFFIX,zencoder.com

@@ -1,0 +1,10 @@
+# NAME: ASOBO
+# AUTHOR: Sergey Makhlenko
+# REPO: https://github.com/mahlenko/shadowrocket-v2fly
+# UPDATED: 2026-05-20 13:23:53
+# DOMAIN-SUFFIX: 2
+# DOMAIN: 1
+# TOTAL: 3
+DOMAIN-SUFFIX,asobostudio.com
+DOMAIN,flightsimulator.azureedge.net
+DOMAIN-SUFFIX,flightsimulator.com

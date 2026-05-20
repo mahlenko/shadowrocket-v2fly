@@ -1,0 +1,67 @@
+# NAME: OZON
+# AUTHOR: Sergey Makhlenko
+# REPO: https://github.com/mahlenko/shadowrocket-v2fly
+# UPDATED: 2026-05-20 13:23:54
+# DOMAIN-SUFFIX: 42
+# DOMAIN: 18
+# TOTAL: 60
+DOMAIN,ad.ozone.ru
+DOMAIN,adv.ozon.ru
+DOMAIN,agency-adv.ozon.ru
+DOMAIN,analytics-adv.ozon.ru
+DOMAIN,beginners-adv.ozon.ru
+DOMAIN-SUFFIX,ewisdom.us.kg
+DOMAIN,google-analytics-suite.ozon.ru
+DOMAIN,loyalnost-adv.ozon.ru
+DOMAIN,new-adv.ozon.ru
+DOMAIN-SUFFIX,o-courier.ru
+DOMAIN-SUFFIX,o3.ru
+DOMAIN-SUFFIX,o3t.ru
+DOMAIN-SUFFIX,o3team.ru
+DOMAIN-SUFFIX,ocourier.ru
+DOMAIN-SUFFIX,ozon-credit.ru
+DOMAIN-SUFFIX,ozon-dostavka.ru
+DOMAIN-SUFFIX,ozon-tech.ru
+DOMAIN-SUFFIX,ozon.by
+DOMAIN-SUFFIX,ozon.com
+DOMAIN-SUFFIX,ozon.com.by
+DOMAIN-SUFFIX,ozon.com.kz
+DOMAIN-SUFFIX,ozon.dev
+DOMAIN-SUFFIX,ozon.express
+DOMAIN-SUFFIX,ozon.kz
+DOMAIN-SUFFIX,ozon.li
+DOMAIN-SUFFIX,ozon.ru
+DOMAIN-SUFFIX,ozon.tech
+DOMAIN-SUFFIX,ozon.tm
+DOMAIN-SUFFIX,ozon.travel
+DOMAIN-SUFFIX,ozoncamp.pro
+DOMAIN-SUFFIX,ozoncard.ru
+DOMAIN-SUFFIX,ozoncom.by
+DOMAIN-SUFFIX,ozoncorporate.ru
+DOMAIN-SUFFIX,ozone.ru
+DOMAIN-SUFFIX,ozonglobalevents.com
+DOMAIN-SUFFIX,ozonpartners.by
+DOMAIN-SUFFIX,ozonpartners.ru
+DOMAIN-SUFFIX,ozonrocet.by
+DOMAIN-SUFFIX,ozonroket.by
+DOMAIN-SUFFIX,ozonru.co.il
+DOMAIN-SUFFIX,ozonru.com
+DOMAIN-SUFFIX,ozonru.eu
+DOMAIN-SUFFIX,ozonru.me
+DOMAIN-SUFFIX,ozonsport.ru
+DOMAIN-SUFFIX,ozonstatus.ru
+DOMAIN-SUFFIX,ozonusercontent.com
+DOMAIN,prodvizhenie-adv.ozon.ru
+DOMAIN,questions-adv.ozon.ru
+DOMAIN-SUFFIX,rocketozon.by
+DOMAIN,sentry.ozon.ru
+DOMAIN,xapi.ozon.by
+DOMAIN,xapi.ozon.com
+DOMAIN,xapi.ozon.com.by
+DOMAIN,xapi.ozon.com.kz
+DOMAIN,xapi.ozon.kz
+DOMAIN,xapi.ozon.ru
+DOMAIN,xapi.ozonru.me
+DOMAIN-SUFFIX,xn----8sbahiqzthbd0bn.xn--p1ai
+DOMAIN-SUFFIX,xn--80aafgovrgbc7am.xn--p1ai
+DOMAIN-SUFFIX,xn--e1adjldbbpv.xn--90ais

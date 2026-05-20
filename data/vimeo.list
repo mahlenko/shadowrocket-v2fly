@@ -1,0 +1,24 @@
+# NAME: VIMEO
+# AUTHOR: Sergey Makhlenko
+# REPO: https://github.com/mahlenko/shadowrocket-v2fly
+# UPDATED: 2026-05-20 13:23:54
+# DOMAIN-SUFFIX: 16
+# URL-REGEX: 1
+# TOTAL: 17
+URL-REGEX,^[0-9]+vod-adaptive\.akamaized\.net$
+DOMAIN-SUFFIX,livestream.com
+DOMAIN-SUFFIX,vhx.tv
+DOMAIN-SUFFIX,vhxqa1.com
+DOMAIN-SUFFIX,vhxqa2.com
+DOMAIN-SUFFIX,vhxqa3.com
+DOMAIN-SUFFIX,vhxqa4.com
+DOMAIN-SUFFIX,vhxqa6.com
+DOMAIN-SUFFIX,vimeo-staging.com
+DOMAIN-SUFFIX,vimeo-staging2.com
+DOMAIN-SUFFIX,vimeo.com
+DOMAIN-SUFFIX,vimeo.fr
+DOMAIN-SUFFIX,vimeobusiness.com
+DOMAIN-SUFFIX,vimeocdn.com
+DOMAIN-SUFFIX,vimeogoods.com
+DOMAIN-SUFFIX,vimeoondemand.com
+DOMAIN-SUFFIX,vimeostatus.com

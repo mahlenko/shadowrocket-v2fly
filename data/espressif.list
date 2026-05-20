@@ -1,0 +1,9 @@
+# NAME: ESPRESSIF
+# AUTHOR: Sergey Makhlenko
+# REPO: https://github.com/mahlenko/shadowrocket-v2fly
+# UPDATED: 2026-05-20 13:23:54
+# DOMAIN-SUFFIX: 3
+# TOTAL: 3
+DOMAIN-SUFFIX,esp32.com
+DOMAIN-SUFFIX,esp8266.com
+DOMAIN-SUFFIX,espressif.com

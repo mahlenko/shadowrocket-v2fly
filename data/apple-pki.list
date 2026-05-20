@@ -1,0 +1,16 @@
+# NAME: APPLE-PKI
+# AUTHOR: Sergey Makhlenko
+# REPO: https://github.com/mahlenko/shadowrocket-v2fly
+# UPDATED: 2026-05-20 13:23:53
+# DOMAIN: 10
+# TOTAL: 10
+DOMAIN,certs-lb.apple.com.akadns.net
+DOMAIN,certs.apple.com
+DOMAIN,crl-lb.apple.com.akadns.net
+DOMAIN,crl.apple.com
+DOMAIN,ocsp-lb.apple.com.akadns.net
+DOMAIN,ocsp.apple.com
+DOMAIN,ocsp2-lb.apple.com.akadns.net
+DOMAIN,ocsp2.apple.com
+DOMAIN,valid.apple.com
+DOMAIN,valid.origin-apple.com.akadns.net

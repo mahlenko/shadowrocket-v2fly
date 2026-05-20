@@ -1,0 +1,10 @@
+# NAME: DLERCLOUD
+# AUTHOR: Sergey Makhlenko
+# REPO: https://github.com/mahlenko/shadowrocket-v2fly
+# UPDATED: 2026-05-20 13:23:54
+# DOMAIN-SUFFIX: 4
+# TOTAL: 4
+DOMAIN-SUFFIX,dlercloud.com
+DOMAIN-SUFFIX,dlercloud.me
+DOMAIN-SUFFIX,dlercloud.org
+DOMAIN-SUFFIX,dleris.best

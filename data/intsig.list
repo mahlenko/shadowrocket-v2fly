@@ -1,0 +1,11 @@
+# NAME: INTSIG
+# AUTHOR: Sergey Makhlenko
+# REPO: https://github.com/mahlenko/shadowrocket-v2fly
+# UPDATED: 2026-05-20 13:23:54
+# DOMAIN-SUFFIX: 5
+# TOTAL: 5
+DOMAIN-SUFFIX,camcard.com
+DOMAIN-SUFFIX,camscanner.com
+DOMAIN-SUFFIX,intsig.com
+DOMAIN-SUFFIX,intsig.net
+DOMAIN-SUFFIX,qixin.com

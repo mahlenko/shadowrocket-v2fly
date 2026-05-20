@@ -1,0 +1,22 @@
+# NAME: GRAPHENEOS
+# AUTHOR: Sergey Makhlenko
+# REPO: https://github.com/mahlenko/shadowrocket-v2fly
+# UPDATED: 2026-05-20 13:23:54
+# DOMAIN-SUFFIX: 16
+# TOTAL: 16
+DOMAIN-SUFFIX,attestation.app
+DOMAIN-SUFFIX,grapheneos.app
+DOMAIN-SUFFIX,grapheneos.ca
+DOMAIN-SUFFIX,grapheneos.com
+DOMAIN-SUFFIX,grapheneos.dev
+DOMAIN-SUFFIX,grapheneos.foundation
+DOMAIN-SUFFIX,grapheneos.info
+DOMAIN-SUFFIX,grapheneos.net
+DOMAIN-SUFFIX,grapheneos.network
+DOMAIN-SUFFIX,grapheneos.online
+DOMAIN-SUFFIX,grapheneos.org
+DOMAIN-SUFFIX,grapheneos.ovh
+DOMAIN-SUFFIX,grapheneos.page
+DOMAIN-SUFFIX,grapheneos.social
+DOMAIN-SUFFIX,seamlessupdate.app
+DOMAIN-SUFFIX,vanadium.app

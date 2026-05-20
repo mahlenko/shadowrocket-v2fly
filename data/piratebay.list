@@ -1,0 +1,10 @@
+# NAME: PIRATEBAY
+# AUTHOR: Sergey Makhlenko
+# REPO: https://github.com/mahlenko/shadowrocket-v2fly
+# UPDATED: 2026-05-20 13:23:54
+# DOMAIN-SUFFIX: 4
+# TOTAL: 4
+DOMAIN-SUFFIX,apibay.org
+DOMAIN-SUFFIX,pirates-forum.org
+DOMAIN-SUFFIX,thepiratebay.org
+DOMAIN-SUFFIX,torrindex.net

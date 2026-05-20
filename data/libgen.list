@@ -1,0 +1,14 @@
+# NAME: LIBGEN
+# AUTHOR: Sergey Makhlenko
+# REPO: https://github.com/mahlenko/shadowrocket-v2fly
+# UPDATED: 2026-05-20 13:23:54
+# DOMAIN-SUFFIX: 8
+# TOTAL: 8
+DOMAIN-SUFFIX,gen.lib.rus.ec
+DOMAIN-SUFFIX,libgen.fun
+DOMAIN-SUFFIX,libgen.is
+DOMAIN-SUFFIX,libgen.life
+DOMAIN-SUFFIX,libgen.me
+DOMAIN-SUFFIX,libgen.rs
+DOMAIN-SUFFIX,libgen.st
+DOMAIN-SUFFIX,library.lol

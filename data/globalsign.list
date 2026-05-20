@@ -1,0 +1,28 @@
+# NAME: GLOBALSIGN
+# AUTHOR: Sergey Makhlenko
+# REPO: https://github.com/mahlenko/shadowrocket-v2fly
+# UPDATED: 2026-05-20 13:23:54
+# DOMAIN-SUFFIX: 19
+# DOMAIN: 2
+# TOTAL: 21
+DOMAIN-SUFFIX,alphassl.com
+DOMAIN,cdn.globalsigncdn.com.cdn.cloudflare.net
+DOMAIN,crl.globalsign.net
+DOMAIN-SUFFIX,easy-signing.com
+DOMAIN-SUFFIX,globalsign-media.com
+DOMAIN-SUFFIX,globalsign.be
+DOMAIN-SUFFIX,globalsign.ch
+DOMAIN-SUFFIX,globalsign.cloud
+DOMAIN-SUFFIX,globalsign.cn
+DOMAIN-SUFFIX,globalsign.co.uk
+DOMAIN-SUFFIX,globalsign.com
+DOMAIN-SUFFIX,globalsign.com.au
+DOMAIN-SUFFIX,globalsign.com.br
+DOMAIN-SUFFIX,globalsign.com.hk
+DOMAIN-SUFFIX,globalsign.com.sg
+DOMAIN-SUFFIX,globalsign.es
+DOMAIN-SUFFIX,globalsign.eu
+DOMAIN-SUFFIX,globalsign.fr
+DOMAIN-SUFFIX,globalsign.net
+DOMAIN-SUFFIX,globalsign.nl
+DOMAIN-SUFFIX,globalsigncdn.com

@@ -1,0 +1,11 @@
+# NAME: BILIBILI2
+# AUTHOR: Sergey Makhlenko
+# REPO: https://github.com/mahlenko/shadowrocket-v2fly
+# UPDATED: 2026-05-20 13:23:53
+# DOMAIN-SUFFIX: 3
+# URL-REGEX: 1
+# TOTAL: 4
+URL-REGEX,(^|\.)bilibili3(0[1-9]|1[0-2])\.xyz$
+DOMAIN-SUFFIX,bili2.cc
+DOMAIN-SUFFIX,bili888.com
+DOMAIN-SUFFIX,bili999.com

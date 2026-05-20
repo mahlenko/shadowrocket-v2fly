@@ -1,0 +1,10 @@
+# NAME: AFDIAN
+# AUTHOR: Sergey Makhlenko
+# REPO: https://github.com/mahlenko/shadowrocket-v2fly
+# UPDATED: 2026-05-20 13:23:53
+# DOMAIN-SUFFIX: 4
+# TOTAL: 4
+DOMAIN-SUFFIX,afdian.com
+DOMAIN-SUFFIX,afdian.net
+DOMAIN-SUFFIX,afdiancdn.com
+DOMAIN-SUFFIX,ifdian.net

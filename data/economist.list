@@ -1,0 +1,10 @@
+# NAME: ECONOMIST
+# AUTHOR: Sergey Makhlenko
+# REPO: https://github.com/mahlenko/shadowrocket-v2fly
+# UPDATED: 2026-05-20 13:23:54
+# DOMAIN-SUFFIX: 4
+# TOTAL: 4
+DOMAIN-SUFFIX,economist.com
+DOMAIN-SUFFIX,economistgroup.com
+DOMAIN-SUFFIX,economistgroupcareers.com
+DOMAIN-SUFFIX,eiu.com

@@ -1,0 +1,11 @@
+# NAME: HINET-ECA
+# AUTHOR: Sergey Makhlenko
+# REPO: https://github.com/mahlenko/shadowrocket-v2fly
+# UPDATED: 2026-05-20 13:23:54
+# DOMAIN-SUFFIX: 5
+# TOTAL: 5
+DOMAIN-SUFFIX,eca.hinet.net
+DOMAIN-SUFFIX,gtlsca.nat.gov.tw
+DOMAIN-SUFFIX,pki.hinet.net
+DOMAIN-SUFFIX,publicca.hinet.net
+DOMAIN-SUFFIX,tls.hinet.net

@@ -1,0 +1,11 @@
+# NAME: JFROG
+# AUTHOR: Sergey Makhlenko
+# REPO: https://github.com/mahlenko/shadowrocket-v2fly
+# UPDATED: 2026-05-20 13:23:54
+# DOMAIN-SUFFIX: 3
+# DOMAIN: 1
+# TOTAL: 4
+DOMAIN-SUFFIX,bintray.com
+DOMAIN,d29vzk4ow07wi7.cloudfront.net
+DOMAIN-SUFFIX,jfrog.com
+DOMAIN-SUFFIX,jfrog.org

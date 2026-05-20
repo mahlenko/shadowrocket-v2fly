@@ -1,0 +1,15 @@
+# NAME: ONEPLUS
+# AUTHOR: Sergey Makhlenko
+# REPO: https://github.com/mahlenko/shadowrocket-v2fly
+# UPDATED: 2026-05-20 13:23:54
+# DOMAIN-SUFFIX: 7
+# DOMAIN: 1
+# TOTAL: 8
+DOMAIN,community.oneplus.com
+DOMAIN-SUFFIX,h2os.com
+DOMAIN-SUFFIX,oneplus.cn
+DOMAIN-SUFFIX,oneplus.com
+DOMAIN-SUFFIX,oneplus.net
+DOMAIN-SUFFIX,oneplusbbs.com
+DOMAIN-SUFFIX,oneplusmobile.com
+DOMAIN-SUFFIX,opstatics.com

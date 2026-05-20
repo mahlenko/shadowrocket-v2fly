@@ -1,0 +1,10 @@
+# NAME: B3LOG
+# AUTHOR: Sergey Makhlenko
+# REPO: https://github.com/mahlenko/shadowrocket-v2fly
+# UPDATED: 2026-05-20 13:23:53
+# DOMAIN-SUFFIX: 4
+# TOTAL: 4
+DOMAIN-SUFFIX,b3log.org
+DOMAIN-SUFFIX,b3logfile.com
+DOMAIN-SUFFIX,hacpai.com
+DOMAIN-SUFFIX,ld246.com
