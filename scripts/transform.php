@@ -145,7 +145,7 @@ function buildHeader(string $name, array $rules): string
 
     $header  = '# NAME: ' . strtoupper($name) . "\n";
     $header .= "# AUTHOR: Sergey Makhlenko\n";
-    $header .= "# REPO: https://github.com/mahlenko/shadowrocket-v2fly\n";
+    $header .= "# REPO: https://github.com/mahlenko/shadowrocket-rules-v2fly\n";
     $header .= "# UPDATED: {$updated}\n";
 
     if ($domainSuffix > 0) $header .= "# DOMAIN-SUFFIX: {$domainSuffix}\n";
