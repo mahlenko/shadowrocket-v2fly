@@ -154,6 +154,11 @@ function buildHeader(string $name, array $rules): string
     return $header;
 }
 
+function stripUpdatedLine(string $content): string
+{
+    return preg_replace('/^# UPDATED:.*\n/m', '', $content);
+}
+
 // --- main ---
 
 $files       = glob($inputDir . '/*');
@@ -180,7 +185,15 @@ foreach ($files as $file) {
     $header  = buildHeader($name, $rules);
     $content = $header . implode("\n", $rules) . "\n";
 
-    file_put_contents("$outputDir/$name.list", $content);
+    // сравниваем с текущей версией
+    $outputFile = "$outputDir/$name.list";
+
+    $existingContent = file_exists($outputFile) ? file_get_contents($outputFile) : '';
+    if (trim(stripUpdatedLine($content)) === trim(stripUpdatedLine($existingContent))) {
+        continue;
+    }
+
+    file_put_contents($outputFile, $content);
     $count++;
 }
 
