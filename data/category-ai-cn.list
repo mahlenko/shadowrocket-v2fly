@@ -1,10 +1,10 @@
 # NAME: CATEGORY-AI-CN
 # AUTHOR: Sergey Makhlenko
 # REPO: https://github.com/mahlenko/shadowrocket-v2fly
-# UPDATED: 2026-05-23 09:42:42
-# DOMAIN-SUFFIX: 86
+# UPDATED: 2026-05-23 10:00:22
+# DOMAIN-SUFFIX: 98
 # DOMAIN: 2
-# TOTAL: 88
+# TOTAL: 100
 DOMAIN,ai.zhaomi.cn
 DOMAIN-SUFFIX,aispeech.com
 DOMAIN-SUFFIX,antafu.com
@@ -42,6 +42,7 @@ DOMAIN-SUFFIX,diandianlife.top
 DOMAIN-SUFFIX,doubao-dev.com
 DOMAIN-SUFFIX,doubao.com
 DOMAIN-SUFFIX,doubaocdn.com
+DOMAIN-SUFFIX,doudou.com
 DOMAIN-SUFFIX,dui.ai
 DOMAIN-SUFFIX,duiopen.com
 DOMAIN-SUFFIX,faxingbao.com
@@ -55,6 +56,12 @@ DOMAIN-SUFFIX,liblib.cloud
 DOMAIN-SUFFIX,liblib.tv
 DOMAIN-SUFFIX,linka2a.net
 DOMAIN-SUFFIX,maoxiangai.com
+DOMAIN-SUFFIX,marscode.cn
+DOMAIN-SUFFIX,marscode.com.cn
+DOMAIN-SUFFIX,mcbaas.work
+DOMAIN-SUFFIX,mcdemo.show
+DOMAIN-SUFFIX,mchost.guru
+DOMAIN-SUFFIX,mcprev.cn
 DOMAIN-SUFFIX,meta.law
 DOMAIN-SUFFIX,metaso.cn
 DOMAIN-SUFFIX,miaibox.com
@@ -79,15 +86,20 @@ DOMAIN-SUFFIX,rwkv.com
 DOMAIN-SUFFIX,safeskill.cn
 DOMAIN-SUFFIX,skillhub.cn
 DOMAIN-SUFFIX,tapnow.top
+DOMAIN-SUFFIX,tcwqqdy.guru
 DOMAIN-SUFFIX,tiangong.cn
 DOMAIN-SUFFIX,tongyi.aliyun.com
 DOMAIN-SUFFIX,tongyi.com
+DOMAIN-SUFFIX,trae.cn
+DOMAIN-SUFFIX,trae.com.cn
+DOMAIN-SUFFIX,trae.guru
 DOMAIN-SUFFIX,xiaoaiassist.com
 DOMAIN-SUFFIX,xiaomimimo.com
 DOMAIN-SUFFIX,xiezuocat.com
 DOMAIN-SUFFIX,xinghuo.xfyun.cn
 DOMAIN-SUFFIX,xingyeai.com
 DOMAIN-SUFFIX,yiyan.baidu.com
+DOMAIN-SUFFIX,yoma.cn
 DOMAIN-SUFFIX,yuanqi.tencent.com
 DOMAIN-SUFFIX,z.ai
 DOMAIN-SUFFIX,zhiexa.com

@@ -1,9 +1,9 @@
 # NAME: YUEWEN
 # AUTHOR: Sergey Makhlenko
 # REPO: https://github.com/mahlenko/shadowrocket-v2fly
-# UPDATED: 2026-05-23 09:42:43
-# DOMAIN-SUFFIX: 12
-# TOTAL: 12
+# UPDATED: 2026-05-23 10:00:23
+# DOMAIN-SUFFIX: 13
+# TOTAL: 13
 DOMAIN-SUFFIX,hongxiu.com
 DOMAIN-SUFFIX,lrts.me
 DOMAIN-SUFFIX,qdmm.com
@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,qidian.com
 DOMAIN-SUFFIX,readnovel.com
 DOMAIN-SUFFIX,rongshuxia.com
 DOMAIN-SUFFIX,tingbook.com
+DOMAIN-SUFFIX,webnovel.com
 DOMAIN-SUFFIX,wting.info
 DOMAIN-SUFFIX,xs.cn
 DOMAIN-SUFFIX,xs8.cn

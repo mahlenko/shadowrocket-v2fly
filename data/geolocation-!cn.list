@@ -1,11 +1,11 @@
 # NAME: GEOLOCATION-!CN
 # AUTHOR: Sergey Makhlenko
 # REPO: https://github.com/mahlenko/shadowrocket-v2fly
-# UPDATED: 2026-05-23 09:42:43
-# DOMAIN-SUFFIX: 23622
-# DOMAIN: 1372
+# UPDATED: 2026-05-23 10:00:22
+# DOMAIN-SUFFIX: 23636
+# DOMAIN: 1373
 # URL-REGEX: 161
-# TOTAL: 25155
+# TOTAL: 25170
 URL-REGEX,(^|\.)13mei[5-7]\.buzz$
 URL-REGEX,(^|\.)18j[efg]\.life$
 URL-REGEX,(^|\.)18jmttios[0-9]{2}\.com$
@@ -299,6 +299,7 @@ DOMAIN-SUFFIX,1drv.com
 DOMAIN-SUFFIX,1drv.ms
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,1inch.io
+DOMAIN-SUFFIX,1infra.net
 DOMAIN-SUFFIX,1jjdg2.vip
 DOMAIN,1l-hit.mail.ru
 DOMAIN,1l-hit.vkplay.ru
@@ -313,6 +314,17 @@ DOMAIN-SUFFIX,1lib.sk
 DOMAIN-SUFFIX,1lib.to
 DOMAIN-SUFFIX,1lib.tw
 DOMAIN-SUFFIX,1monsterbeatsbydreus.com
+DOMAIN-SUFFIX,1password.ca
+DOMAIN-SUFFIX,1password.co
+DOMAIN-SUFFIX,1password.com
+DOMAIN-SUFFIX,1password.community
+DOMAIN,1password.drift.click
+DOMAIN-SUFFIX,1password.eu
+DOMAIN-SUFFIX,1password.io
+DOMAIN-SUFFIX,1passwordservices.com
+DOMAIN-SUFFIX,1passwordusercontent.ca
+DOMAIN-SUFFIX,1passwordusercontent.com
+DOMAIN-SUFFIX,1passwordusercontent.eu
 DOMAIN-SUFFIX,1pondo.tv
 DOMAIN-SUFFIX,1pornlist.com
 DOMAIN-SUFFIX,1thek.com
@@ -1200,6 +1212,7 @@ DOMAIN,agency-adv.ozon.ru
 DOMAIN-SUFFIX,agendaweek.com
 DOMAIN-SUFFIX,agentclientprotocol.com
 DOMAIN-SUFFIX,aggresmart.com
+DOMAIN-SUFFIX,agilebits.com
 DOMAIN-SUFFIX,agrd.eu
 DOMAIN-SUFFIX,agrd.io
 DOMAIN-SUFFIX,agri-bank.com
@@ -6345,6 +6358,7 @@ DOMAIN-SUFFIX,decentr.net
 DOMAIN-SUFFIX,dechamora.com
 DOMAIN-SUFFIX,decopri.net
 DOMAIN-SUFFIX,decorativemodels.com
+DOMAIN-SUFFIX,decrypt.day
 DOMAIN-SUFFIX,deeper.com
 DOMAIN-SUFFIX,deepfake-porn.com
 DOMAIN-SUFFIX,deepfakeporn.net
@@ -17043,6 +17057,7 @@ DOMAIN-SUFFIX,pascherbeatsmonster.com
 DOMAIN-SUFFIX,pashtovoa.com
 DOMAIN-SUFFIX,pasionmujeres.com
 DOMAIN-SUFFIX,paskoocheh.com
+DOMAIN-SUFFIX,passage.id
 DOMAIN-SUFFIX,passion-hd.com
 DOMAIN-SUFFIX,passion.com
 DOMAIN-SUFFIX,passiontimes.hk
