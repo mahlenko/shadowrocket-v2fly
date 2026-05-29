@@ -1,11 +1,11 @@
 # NAME: GEOLOCATION-!CN
 # AUTHOR: Sergey Makhlenko
 # REPO: https://github.com/mahlenko/shadowrocket-rules-v2fly
-# UPDATED: 2026-05-28 06:59:58
-# DOMAIN-SUFFIX: 23672
+# UPDATED: 2026-05-29 07:00:02
+# DOMAIN-SUFFIX: 23673
 # DOMAIN: 1373
 # URL-REGEX: 161
-# TOTAL: 25206
+# TOTAL: 25207
 URL-REGEX,(^|\.)13mei[5-7]\.buzz$
 URL-REGEX,(^|\.)18j[efg]\.life$
 URL-REGEX,(^|\.)18jmttios[0-9]{2}\.com$
@@ -2515,6 +2515,7 @@ DOMAIN-SUFFIX,archlinuxcn.org
 DOMAIN-SUFFIX,arcraiders.com
 DOMAIN-SUFFIX,area120.com
 DOMAIN-SUFFIX,area51.to
+DOMAIN-SUFFIX,arena.ai
 DOMAIN-SUFFIX,arewereadyyet.com
 DOMAIN-SUFFIX,areyoucreditwise.com
 DOMAIN-SUFFIX,argo-bdp.com
